@@ -1,14 +1,47 @@
 * {
     margin: 0;
     padding: 0;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: 
 }
 
 nav {
     background-color: #4f4f4f;
     color: white;
+    padding: 30px;
 }
 
-nav ul {
-    display: 
+nav h1 {
+    display: inline;
+    font-size: 36px;
+    padding-right: 30px;
+}
+
+nav ul, nav li {
+    display: inline;
+    font-weight: 400;
+    font-size: 20px;
+    word-spacing: 20px;
+}
+
+nav li:hover {
+    text-decoration: underline;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+main {
+    margin: auto;
+    width: 90%;
+    margin-top: 20px;
+}
+
+.card {
+    display: inline-block;
+    width: 30%;
+    padding: 0;
+}
+
+img {
+    width: 90%;
 }
